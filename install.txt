@@ -1,0 +1,12 @@
+To install a Python module from GitHub using setup.py, you can follow these steps:
+
+Clone the Repository: First, clone the GitHub repository to your local machine using Git. Replace repository_url with the actual URL of the repository.
+git clone repository_url
+
+Navigate to Directory: Change into the directory that contains the setup.py file.
+cd repository_name
+
+Install the Module: Use the following command to install the module. This will install the package and any dependencies.
+python setup.py install
+
+Make sure you have Git installed on your system and that you have the necessary permissions to install packages. If you encounter any issues, check the repository’s README for specific instructions or troubleshooting tips.
