@@ -8,5 +8,7 @@ cd repository_name
 
 Install the Module: Use the following command to install the module. This will install the package and any dependencies.
 python setup.py install
+if any permission issue
+python setup.py install --install-dir "c:\Users\anpan"
 
 Make sure you have Git installed on your system and that you have the necessary permissions to install packages. If you encounter any issues, check the repository’s README for specific instructions or troubleshooting tips.
